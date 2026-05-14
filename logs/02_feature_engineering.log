@@ -1,0 +1,5 @@
+
+Feature Engineering Summary:
+Original columns: 41
+Feature columns: 36
+Final dataset shape: (100000, 41)

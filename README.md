@@ -623,7 +623,9 @@ KMeans segments are derived from behavioral features. Before production deployme
 ## Author
 
 **CHANDRIMA DAS**
+
 *MS DS , UC SAN DIEGO*
+
 [LinkedIn](https://linkedin.com/in/foyie) · [Portfolio](https://foyie.github.io/foyie/) · [Email](mailto:chdas@ucsd.edu)
 
 ---

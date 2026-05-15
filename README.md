@@ -8,6 +8,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+**[View Live Dashboard](https://causallift-dashboard.streamlit.app/)** — Interactive Streamlit app with policy simulator
+
 ---
 
 ## Table of Contents
@@ -48,6 +50,8 @@ This project estimates **individual-level causal treatment effects** — specifi
 | Placebo p-value                | **< 0.001 (all 4 models)**                      |
 | CATE range (oracle)            | −0.05 to +0.35                                       |
 
+
+<!-- **→ [Explore the live interactive dashboard](https://causallift-dashboard.streamlit.app/)** to test the policy simulator with custom budget constraints and ROI scenarios. -->
 ---
 
 ## 2. Why Causal Inference — Not Just Prediction
@@ -373,10 +377,14 @@ The production Streamlit dashboard (`app/dashboard.py`) provides a complete anal
 
 ### Running the Dashboard
 
+### Running the Dashboard
+
+**Live Demo:** [View the interactive dashboard](YOUR_DASHBOARD_URL)
+
+To run locally:
 ```bash
 streamlit run app/dashboard.py
 ```
-
 Navigate to **http://localhost:8501**
 
 The dashboard auto-loads from `data/processed/features_engineered.csv` and `results/validation_results.json`. Ensure both exist by running the pipeline first.
